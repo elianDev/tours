@@ -1,0 +1,63 @@
+.tour {
+  background: #eee;
+  position: relative;
+  border-radius: 0.4rem;
+  padding-bottom: 1rem;
+}
+
+.tour img {
+  height: 20rem;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.tour span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #10b981;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.4rem;
+}
+
+.tour span::before {
+  content: "$ ";
+}
+
+.tourContent {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tourContent h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.tourContent p {
+  color: #777;
+}
+
+.readMore {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #10b981;
+  cursor: pointer;
+}
+
+.notInterested {
+  padding: 0.5rem;
+  /* border: none; */
+  color: red;
+  cursor: pointer;
+  width: 100%;
+}

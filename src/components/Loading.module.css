@@ -1,0 +1,23 @@
+.loading {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading span {
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  display: block;
+  border: 8px solid crimson;
+  border-top: 8px solid transparent;
+  border-radius: 50%;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

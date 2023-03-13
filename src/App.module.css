@@ -1,0 +1,27 @@
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.content h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.refresh {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.refresh button {
+  padding: 0.5rem;
+  color: red;
+  cursor: pointer;
+}
